@@ -21,17 +21,32 @@ Se obtiene un archivo CSV y su tipo de separador, donde luego se obtiene los val
 
 ## Installation
 
+Prerequisitos:
+
+- Instalar Maven.
+- Instalar Java 8 o superior.
+
 ```shell
     # Clone or install commands
-    npm i [project] o npm/yarn i 
+    git clone https://github.com/ernestofuk/converter/blob/master/LICENSE 
 ```
 
 ```shell
-    # test o run commands
-    npm start
-    npm run dev ...
+    # test
+    mvn test
 ```
+
+```shell
+    # install
+    mvn install
+```
+
+```shell
+    # run the project after the above command
+    java -jar target/converter-0.0.1-snapshot.jar
+```
+
 ## License
 
-Inlcuir la licéncia y el link a esta
-[MIT](https://opensource.org/licenses/MIT)
+Este proyecto está bajo la licencia
+[MIT](https://github.com/ernestofuk/converter/blob/master/LICENSE)
